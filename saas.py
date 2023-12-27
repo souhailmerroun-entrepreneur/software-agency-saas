@@ -9,7 +9,7 @@ def calculate_saas_health_metrics(mrr, churn_rate, cac, ltv):
     mrr_annualized = mrr * 12
 
     # Assuming average customer lifetime is 3 years for LTV calculation
-    average_customer_lifetime = 3
+    average_customer_lifetime = 1
     ltv_calculated = mrr_annualized * average_customer_lifetime
 
     # LTV to CAC Ratio
